@@ -1,0 +1,12 @@
+name: betfair
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pandas
+  - betfairlightweight
+  - numpy
+  - python=3.10
+  - ipykernel
+  - python-dotenv
+prefix: 
