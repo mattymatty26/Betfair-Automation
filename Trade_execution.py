@@ -26,7 +26,7 @@ trading.login_interactive()
 
 
 bet_size = 5.00
-market_id='1.207176929' # Match Odds on Brazil vs South Korea
+market_id='1.207303789' # Match Odds on Brazil vs South Korea
 selection_id = 1408 #Brazil 
 
 make_order_best_price(bet_size,market_id,selection_id,trading)

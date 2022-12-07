@@ -199,7 +199,7 @@ def make_order_best_price(betsize,market_id,selection_id,trading):
 
     runners_df = process_runner_books(market_book.runners)
     
-    price_odds = runners_df.loc[runners_df["Selection ID"]==selection_id]['Best Back Price'][0]
+    price_odds = runners_df.loc[runners_df["Selection ID"]==selection_id]['Best Back Price'].values[0]
     
     # Define a limit order filter
     limit_order_filter = betfairlightweight.filters.limit_order(
