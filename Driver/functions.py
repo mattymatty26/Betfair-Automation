@@ -220,7 +220,6 @@ def make_order_best_price(betsize,market_id,selection_id,trading):
     # Place the order
     order = trading.betting.place_orders(
         market_id=market_id, # The market id we obtained from before
-        customer_strategy_ref='Test', #comment
         instructions=[instructions_filter] # This must be a list
     )
     
